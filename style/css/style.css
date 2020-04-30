@@ -869,7 +869,7 @@ template {
   width: 40%;
   height: 400px;
   width: 45%;
-  height: 90%;
+  min-height: 90%;
 }
 
 .experience__photo {
