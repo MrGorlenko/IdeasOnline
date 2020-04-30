@@ -64,6 +64,7 @@
 
 @media (max-width: 576px){
     .team{
+        min-height: 600px;
         &__title{
             font-size: 15px;
         }

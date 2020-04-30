@@ -712,6 +712,9 @@ template {
 }
 
 @media (max-width: 576px) {
+  .team {
+    min-height: 600px;
+  }
   .team__title {
     font-size: 15px;
   }
@@ -823,6 +826,9 @@ template {
 }
 
 @media (max-width: 576px) {
+  .online {
+    min-height: 610px;
+  }
   .online__bg {
     width: 150px;
   }
@@ -963,11 +969,10 @@ template {
 
 @media (max-width: 576px) {
   .experience {
-    min-height: 175vh;
-    max-height: 200vh;
+    min-height: 600px;
   }
   .experience__container {
-    height: 170vh;
+    min-height: 600px;
     z-index: 2;
   }
   .experience__title {
@@ -976,8 +981,9 @@ template {
   }
   .experience__item {
     width: 100%;
-    height: 38%;
+    height: initial;
     margin-top: 30px;
+    min-height: initial;
   }
   .experience__photo {
     height: 400px;
@@ -1238,13 +1244,13 @@ template {
     overflow: hidden;
   }
   .footer__title {
+    width: 90%;
     font-size: 25px;
-    width: 100%;
     padding-left: 20px;
   }
   .footer__subtitle {
     font-size: 23px;
-    width: 100%;
+    width: 90%;
     padding-left: 20px;
   }
   .footer__container {
