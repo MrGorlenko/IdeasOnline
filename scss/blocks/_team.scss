@@ -1,0 +1,76 @@
+.team{
+    min-height: 100vh;
+    padding-top: 80px;
+    position: relative;
+    &__title{
+        width: 90%;
+        padding-left: 10%;
+    }
+    &__list{
+        position: absolute;
+        bottom: 5%;
+        list-style-type: none;
+        z-index: 3;
+        li{
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            font-size: 26px;
+            font-family: 'Gotham Pro';
+            font-weight: 500;
+            &::before{
+                content: url('../../img/team/star.png');
+                margin-right: 10px;
+            }
+        }
+    }
+    &__rocket{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 1200px){
+    .team{
+        &__title{
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .team{
+        padding-top: 50px;
+        &__title{
+            padding-left: 0;
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .team{
+        padding-top: 50px;
+        &__title{
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .team{
+        &__title{
+            font-size: 15px;
+        }
+        &__list{
+            padding-left: 0;
+            li{
+                font-size: 13px;
+            }   
+        }
+        &__rocket{
+            bottom: 25%;
+        }
+    }
+}

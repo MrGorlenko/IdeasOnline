@@ -1,0 +1,64 @@
+.background{
+    &-label{
+        font-size: 25px;
+        color: #e1e1e1;
+        text-transform: uppercase;
+        font-family: 'Gotham Pro';
+        font-weight: 100;
+        display: block;
+        position: absolute;
+    }
+    &-star{
+        position: absolute;
+    }
+}
+.solves{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        z-index: 2;
+    }
+}
+
+
+
+@media (max-width: 1200px){
+    .background{
+        &-label{
+            font-size: 18px;
+        }
+        &-star{
+            width: 3%;
+        }
+    }
+}
+
+
+
+@media (max-width: 992px){
+    .background{
+        &-label{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .background{
+        &-label{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .background{
+        &-label{
+            font-size: 13px;
+        }
+    }
+}

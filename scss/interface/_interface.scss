@@ -1,0 +1,123 @@
+*{
+    text-transform: uppercase;
+}
+
+.section{
+    &__title{
+        background: linear-gradient(to top right, rgb(41, 94, 59), rgb(37, 89, 56), rgb(34, 83, 52), rgb(30, 78, 49), rgb(26, 73, 46), rgb(22, 68, 43), rgb(19, 62, 39), rgb(15, 57, 36), rgb(11, 52, 33), rgb(7, 47, 30), rgb(4, 41, 26), rgb(0, 36, 23));
+        background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+        color: rgb(22, 67, 45);
+        font-family: 'Gotham Pro';
+        text-transform: uppercase;
+        margin: auto;
+        width: 715px;
+        font-size: 55px;
+    }
+}
+
+.right{
+    &_0{
+        right: 0;
+    }
+    &_5{
+        right: 5%;
+    }
+}
+
+.left{
+    &_0{
+        left: 0;
+    }
+    &_5{
+        left:5%;
+    }
+    &_10{
+        left: 10%;
+    }
+    &_15{
+        left: 15%;
+    }
+    &_50{
+        left: 50%;
+    }
+    &_55{
+        left: 55%;
+    }
+    &_60{
+        left: 60%;
+    }
+    &_75{
+        left: 75%;
+    }
+
+}
+
+.bottom{
+    &_0{
+        bottom: 0;
+    }
+    &_5{
+        bottom: 5%;;
+    }
+}
+
+.top{
+    &_0{
+        top: 0;
+    }
+    &_3{
+        top: 3%;
+    }
+    &_10{
+        top: 10%;
+    }
+    &_15{
+        top: 15%;      
+    }
+    &_18{
+        top: 18%;
+    }
+    &_20{
+        top: 20%;
+    }
+    &_25{
+        top: 25%;
+    }
+    &_40{
+        top: 40%;
+    }
+    &_65{
+        top: 65%;
+    }
+    &_80{
+        top: 80%;
+    }
+}
+
+
+@media (max-width: 768px){
+    .section{
+        &__title{
+            font-size: 35px;
+            padding-left: 15%;
+        }
+    }
+    .desctop{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 576px){
+    .section{
+        &__title{
+            font-size: 24px;
+            padding-left: 0;
+        }
+    }
+    .mobile{
+        display: none;
+    }
+}
