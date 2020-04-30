@@ -800,6 +800,7 @@ template {
   }
   .online__title {
     font-size: 55px;
+    height: initial;
   }
   .online__paragraph {
     font-size: 15px;
@@ -897,6 +898,7 @@ template {
   position: absolute;
   top: -7%;
   left: -7%;
+  z-index: -1;
 }
 
 .experience__link {
@@ -965,7 +967,7 @@ template {
     min-height: 155vh;
   }
   .experience__container {
-    height: 140vh;
+    height: 170vh;
     z-index: 2;
   }
   .experience__title {

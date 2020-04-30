@@ -46,6 +46,7 @@
         position: absolute;
         top: -7%;
         left: -7%;
+        z-index: -1;
     }
     &__link{
         margin-top: 6%;
@@ -117,7 +118,7 @@
     .experience{
         min-height: 155vh;
         &__container{
-            height: 140vh;
+            height: 170vh;
             z-index: 2;
         }
         &__title{
