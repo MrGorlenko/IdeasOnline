@@ -1026,6 +1026,7 @@ template {
   font-size: 25px;
   font-weight: 500;
   outline: none;
+  z-index: 5;
 }
 
 @media (max-width: 1200px) {
@@ -1114,6 +1115,149 @@ template {
     display: block;
     width: 230px;
     height: 55px;
+  }
+}
+
+.footer {
+  min-height: 100vh;
+  position: relative;
+}
+
+.footer h2 {
+  margin: auto;
+  z-index: 3;
+}
+
+.footer__star {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+
+.footer__title {
+  padding-top: 6%;
+  color: #2d6870;
+  width: 60%;
+  font-size: 40px;
+  font-family: 'Gotham Pro';
+  font-weight: 500;
+  text-transform: initial;
+}
+
+.footer__subtitle {
+  padding-top: 6%;
+  width: 60%;
+  font-size: 40px;
+  font-family: 'Gotham Pro';
+  font-weight: 500;
+  text-transform: initial;
+}
+
+.footer__hands {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  z-index: -1;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.footer__container_2 {
+  width: 50%;
+}
+
+.footer__item {
+  font-family: 'Gotham Pro';
+  font-weight: 500;
+  text-transform: initial;
+  font-size: 22px;
+}
+
+.footer__item_link {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer__logo {
+  width: 240px;
+}
+
+@media (max-width: 1200px) {
+  .footer__item {
+    font-size: 18px;
+  }
+  .footer__link_img {
+    width: 65px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__title {
+    font-size: 35px;
+  }
+  .footer__subtitle {
+    font-size: 33px;
+  }
+  .footer__container {
+    flex-wrap: wrap;
+    height: 85px;
+  }
+  .footer__container_2 {
+    width: 80%;
+  }
+  .footer__item {
+    font-size: 18px;
+    width: 40%;
+  }
+  .footer__logo {
+    height: 30px;
+  }
+  .footer__link_img {
+    width: 55px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    overflow: hidden;
+  }
+  .footer__title {
+    font-size: 25px;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .footer__subtitle {
+    font-size: 23px;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .footer__container {
+    flex-wrap: wrap;
+    height: 120px;
+    margin-top: 90%;
+  }
+  .footer__container_2 {
+    width: 95%;
+    margin-top: 10%;
+  }
+  .footer__item {
+    font-size: 18px;
+    width: 50%;
+  }
+  .footer__star {
+    display: none;
+  }
+  .footer__logo {
+    height: 30px;
+  }
+  .footer__link_img {
+    width: 45px;
   }
 }
 /*# sourceMappingURL=style.css.map */
