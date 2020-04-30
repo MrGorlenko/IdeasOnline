@@ -977,6 +977,7 @@ template {
   .experience__item {
     width: 100%;
     height: 38%;
+    margin-top: 30px;
   }
   .experience__photo {
     height: 400px;
