@@ -1,0 +1,139 @@
+.time{
+    min-height: 100vh;
+    position: relative;
+    &__star{
+        position: absolute;
+        top: 18%;
+        left: 12%;
+    }
+    h2{
+        font-family: 'Gotham Pro';
+        font-weight: 600;
+        text-align: center;
+    }
+    &__title{
+        color: #2d6870;
+        font-size: 55px;
+        padding-top: 15%;
+    }
+    &__subtitle{
+        font-size: 58px;
+        font-weight: 900;
+        padding-left: 25%;
+    }
+    &__astronaut{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    &__button{
+        background-color: #2d6870;
+        width: 255px;
+        height: 70px;
+        position: absolute;
+        bottom: 30%;
+        right: 20%;
+        color: white;
+        font-family: 'Gotham Pro';
+        font-size: 25px;
+        font-weight: 500;
+        outline: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .time{
+        &__title{
+            font-size: 40px;
+        }
+        &__subtitle{
+            font-size: 43px;
+        }
+        &__astronaut{
+            width: 450px;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .time{
+        &__star{
+            top: 50%;
+        }
+        &__title{
+            font-size: 40px;
+        }
+        &__subtitle{
+            font-size: 43px;
+            padding-left: 0;
+        }
+        &__astronaut{
+            width: 450px;
+            left: 25%;
+        }
+        &__button{
+            position: relative;
+            right: 0;
+            margin: auto;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .time{
+        &__star{
+            top: 50%;
+        }
+        &__title{
+            font-size: 35px;
+        }
+        &__subtitle{
+            font-size: 37px;
+            padding-left: 0;
+        }
+        &__astronaut{
+            width: 380px;
+            left: 25%;
+        }
+        &__button{
+            position: relative;
+            right: 0;
+            margin: auto;
+            display: block;
+            width: 230px;
+            height: 55px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .time{
+        overflow: hidden;
+        &__star{
+            // top: 50%;
+            display: none;
+        }
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size: 39px;
+            padding-left: 0;
+            margin-bottom: 38%;
+        }
+        &__astronaut{
+            width: 380px;
+            left: 0%;
+        }
+        &__button{
+            // margin-top: 38%;
+            position: relative;
+            right: 0;
+            margin: auto;
+            display: block;
+            width: 230px;
+            height: 55px;
+        }
+    }
+}

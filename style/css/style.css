@@ -978,4 +978,142 @@ template {
     font-size: 21px;
   }
 }
+
+.time {
+  min-height: 100vh;
+  position: relative;
+}
+
+.time__star {
+  position: absolute;
+  top: 18%;
+  left: 12%;
+}
+
+.time h2 {
+  font-family: 'Gotham Pro';
+  font-weight: 600;
+  text-align: center;
+}
+
+.time__title {
+  color: #2d6870;
+  font-size: 55px;
+  padding-top: 15%;
+}
+
+.time__subtitle {
+  font-size: 58px;
+  font-weight: 900;
+  padding-left: 25%;
+}
+
+.time__astronaut {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.time__button {
+  background-color: #2d6870;
+  width: 255px;
+  height: 70px;
+  position: absolute;
+  bottom: 30%;
+  right: 20%;
+  color: white;
+  font-family: 'Gotham Pro';
+  font-size: 25px;
+  font-weight: 500;
+  outline: none;
+}
+
+@media (max-width: 1200px) {
+  .time__title {
+    font-size: 40px;
+  }
+  .time__subtitle {
+    font-size: 43px;
+  }
+  .time__astronaut {
+    width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .time__star {
+    top: 50%;
+  }
+  .time__title {
+    font-size: 40px;
+  }
+  .time__subtitle {
+    font-size: 43px;
+    padding-left: 0;
+  }
+  .time__astronaut {
+    width: 450px;
+    left: 25%;
+  }
+  .time__button {
+    position: relative;
+    right: 0;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .time__star {
+    top: 50%;
+  }
+  .time__title {
+    font-size: 35px;
+  }
+  .time__subtitle {
+    font-size: 37px;
+    padding-left: 0;
+  }
+  .time__astronaut {
+    width: 380px;
+    left: 25%;
+  }
+  .time__button {
+    position: relative;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 230px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 576px) {
+  .time {
+    overflow: hidden;
+  }
+  .time__star {
+    display: none;
+  }
+  .time__title {
+    font-size: 25px;
+  }
+  .time__subtitle {
+    font-size: 39px;
+    padding-left: 0;
+    margin-bottom: 38%;
+  }
+  .time__astronaut {
+    width: 380px;
+    left: 0%;
+  }
+  .time__button {
+    position: relative;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 230px;
+    height: 55px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
