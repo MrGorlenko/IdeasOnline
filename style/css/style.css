@@ -969,7 +969,7 @@ template {
 
 @media (max-width: 576px) {
   .experience {
-    min-height: 600px;
+    min-height: 1300px;
   }
   .experience__container {
     min-height: 600px;
