@@ -5,6 +5,8 @@
     &__title{
         width: 90%;
         padding-left: 10%;
+        margin-top: -4px;
+        height: 250px;
     }
     &__list{
         position: absolute;
@@ -18,6 +20,7 @@
             font-size: 26px;
             font-family: 'Gotham Pro';
             font-weight: 500;
+            color: black;
             &::before{
                 content: url('../../img/team/star.png');
                 margin-right: 10px;

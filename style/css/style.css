@@ -342,11 +342,10 @@ template {
 }
 
 .section__title {
-  background: linear-gradient(to top right, #295e3b, #255938, #225334, #1e4e31, #1a492e, #16442b, #133e27, #0f3924, #0b3421, #072f1e, #04291a, #002417);
+  background: -webkit-linear-gradient(#255938, #04291a);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #16432d;
   font-family: 'Gotham Pro';
   text-transform: uppercase;
   margin: auto;
@@ -616,6 +615,8 @@ template {
 
 .solves__title {
   z-index: 2;
+  padding-top: 5px;
+  height: 199px;
 }
 
 @media (max-width: 1200px) {
@@ -654,6 +655,8 @@ template {
 .team__title {
   width: 90%;
   padding-left: 10%;
+  margin-top: -4px;
+  height: 250px;
 }
 
 .team__list {
@@ -670,6 +673,7 @@ template {
   font-size: 26px;
   font-family: 'Gotham Pro';
   font-weight: 500;
+  color: black;
 }
 
 .team__list li::before {
@@ -761,6 +765,8 @@ template {
   text-align: end;
   margin: unset;
   font-size: 90px;
+  height: 95px;
+  margin-top: -2px;
 }
 
 .online__paragraph {
@@ -1186,6 +1192,7 @@ template {
 
 .footer__logo {
   width: 240px;
+  height: 35px;
 }
 
 @media (max-width: 1200px) {
