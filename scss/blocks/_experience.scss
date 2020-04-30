@@ -116,7 +116,8 @@
 
 @media (max-width: 576px){
     .experience{
-        min-height: 155vh;
+        min-height: 175vh;
+        max-height: 200vh;
         &__container{
             height: 170vh;
             z-index: 2;

@@ -964,7 +964,8 @@ template {
 
 @media (max-width: 576px) {
   .experience {
-    min-height: 155vh;
+    min-height: 175vh;
+    max-height: 200vh;
   }
   .experience__container {
     height: 170vh;
