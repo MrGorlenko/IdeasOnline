@@ -462,7 +462,7 @@ template {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 810px;
   width: 100%;
 }
 
@@ -606,7 +606,7 @@ template {
 
 .solves {
   position: relative;
-  min-height: 100vh;
+  min-height: 810px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -647,7 +647,7 @@ template {
 }
 
 .team {
-  min-height: 100vh;
+  min-height: 810px;
   padding-top: 80px;
   position: relative;
 }
@@ -728,7 +728,7 @@ template {
 }
 
 .online {
-  min-height: 100vh;
+  min-height: 810px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -842,7 +842,7 @@ template {
 }
 
 .experience {
-  min-height: 100vh;
+  min-height: 810px;
   position: relative;
 }
 
@@ -990,7 +990,7 @@ template {
 }
 
 .time {
-  min-height: 100vh;
+  min-height: 810px;
   position: relative;
 }
 
