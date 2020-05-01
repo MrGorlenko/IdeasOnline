@@ -666,7 +666,7 @@ template {
 
 .team__list {
   position: absolute;
-  bottom: 5%;
+  bottom: 20%;
   list-style-type: none;
   z-index: 3;
 }
@@ -743,7 +743,6 @@ template {
   align-items: flex-end;
   flex-wrap: wrap;
   position: relative;
-  overflow: hidden;
 }
 
 .online__content {
@@ -752,8 +751,8 @@ template {
 
 .online__bg {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -20%;
+  left: -20%;
 }
 
 .online__written {
