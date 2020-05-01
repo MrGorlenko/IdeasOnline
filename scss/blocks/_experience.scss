@@ -142,7 +142,7 @@
         &__photo{
             margin-top: 40px;
             background-size: contain;
-            height: 334px;
+            min-height: 334px;
             &_1{
                 background-size: contain;
                 background-repeat: no-repeat;

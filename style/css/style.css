@@ -1171,7 +1171,7 @@ template {
   .experience__photo {
     margin-top: 40px;
     background-size: contain;
-    height: 334px;
+    min-height: 334px;
   }
   .experience__photo_1 {
     background-size: contain;
