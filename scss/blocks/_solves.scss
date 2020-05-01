@@ -7,11 +7,28 @@
         font-weight: 100;
         display: block;
         position: absolute;
+        height: 28px;
+        width: 100%;
+        box-sizing: border-box;
     }
     &-star{
         position: absolute;
+        &_left{
+            margin-left: -40px;
+        }
+        &_right{
+            margin-right: -40px;
+        }
     }
 }
+
+// .js-marquee-wrapper{
+//     width: 200% !important;
+//     margin-left: -100% !important;
+// }
+// .js-marquee{
+//     float: right !important; 
+// }
 .solves{
     position: relative;
     // min-height: 100vh;
@@ -54,10 +71,16 @@
     .background{
         &-label{
             font-size: 13px;
+            // width: 155%;
         }
     }
     .solves{
-        min-height: 450px;
+        overflow: hidden;
+        min-height: 300px;
+        &__title{
+            padding-top: 63px;
+            height: 147px;
+        }
     }
 }
 
