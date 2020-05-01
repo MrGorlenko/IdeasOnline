@@ -146,6 +146,7 @@
             background-size: contain;
             min-height: 334px;
             max-height: 336px;
+            margin-left: 20px;
             &_1{
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -168,8 +169,8 @@
             padding-left: 20px;
         }
         &_low{
-            // min-height: 1080px;
-            min-height: 1330px;
+            min-height: 1080px;
+            // min-height: 1330px;
         }
 
     }

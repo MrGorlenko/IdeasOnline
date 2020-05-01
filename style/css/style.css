@@ -1178,6 +1178,7 @@ template {
     background-size: contain;
     min-height: 334px;
     max-height: 336px;
+    margin-left: 20px;
   }
   .experience__photo_1 {
     background-size: contain;
@@ -1200,7 +1201,7 @@ template {
     padding-left: 20px;
   }
   .experience_low {
-    min-height: 1330px;
+    min-height: 1080px;
   }
 }
 
