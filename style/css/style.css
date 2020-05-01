@@ -480,9 +480,9 @@ template {
   font-family: 'Gotham Pro';
   text-transform: uppercase;
   color: #2d6870;
-  width: 60%;
+  width: 50%;
   font-weight: bolder;
-  padding-left: 40%;
+  padding-left: 46%;
   margin: auto;
 }
 
@@ -569,6 +569,7 @@ template {
     font-size: 23px;
     text-align: center;
     padding-left: 0;
+    width: 70%;
   }
   .hero__list {
     margin-top: 100px;
@@ -1279,6 +1280,13 @@ template {
   z-index: -1;
 }
 
+.footer__rocket {
+  position: absolute;
+  top: 15%;
+  right: 91px;
+  z-index: -1;
+}
+
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -1306,6 +1314,12 @@ template {
 .footer__logo {
   width: 240px;
   height: 35px;
+}
+
+.rocket__animation_footer {
+  top: 0;
+  animation-duration: 4000ms;
+  transition: 4s;
 }
 
 @media (max-width: 1200px) {
@@ -1366,6 +1380,21 @@ template {
     width: 95%;
     margin-top: 10%;
   }
+  .footer__hands {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    z-index: -1;
+  }
+  .footer__rocket {
+    position: absolute;
+    bottom: 0;
+    right: 85px;
+    z-index: -1;
+    top: 30%;
+    width: 140px;
+  }
   .footer__item {
     font-size: 18px;
     width: 50%;
@@ -1378,6 +1407,11 @@ template {
   }
   .footer__link_img {
     width: 45px;
+  }
+  .rocket__animation_footer {
+    top: 3% !important;
+    animation-duration: 4000ms;
+    transition: 4s;
   }
 }
 /*# sourceMappingURL=style.css.map */
