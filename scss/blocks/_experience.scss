@@ -94,9 +94,9 @@
 
 @media (max-width: 768px){
     .experience{
-        min-height: 200vh;
+        min-height: 1500px;
         &__container{
-            height: 120vh;
+            min-height: 1420px;
         }
         &__title{
             font-size: 45px;
@@ -104,8 +104,7 @@
         }
         &__item{
             width: 100%;
-            min-height: 55%;
-            max-height: 65%;
+            min-height: 720px;
         }
         &__photo{
             height: 520px;
@@ -122,7 +121,7 @@
     .experience{
         min-height: 1300px;
         &__container{
-            min-height: 600px;
+            min-height: 1140px;
             z-index: 2;
         }
         &__title{
