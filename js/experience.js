@@ -32,12 +32,12 @@ $(document).ready(function(){
         } else {
 
             scrollorama_exp.animate('.experience__item_left', {
-                delay: 200,
+                delay: 90,
                 duration: 500, property: 'left', start: -1000 + 'px', end: 0 + 'px', baseline: "bottom"
               })
 
             scrollorama_exp.animate('.experience__item_left', {
-                delay: 250,
+                delay: 140,
                 duration: 500, property: 'opacity', start: 0, end: 1, baseline: "bottom"
               })
         
@@ -55,20 +55,20 @@ $(document).ready(function(){
                 duration: 500, property: 'left', start: -1000 + 'px', end: 0 + 'px', baseline: "bottom"
               })
 
-            scrollorama_exp_2.animate('.experience__item_left_2', {
-                delay: 350,
-                duration: 500, property: 'opacity', start: 0, end: 1, baseline: "bottom"
-              })
+            // scrollorama_exp_2.animate('.experience__item_left_2', {
+            //     delay: 350,
+            //     duration: 500, property: 'opacity', start: 0, end: 1, baseline: "bottom"
+            //   })
         
             scrollorama_exp_2.animate('.experience__item_right_2', {
                 delay: 350,
                 duration: 500, property: 'right', start: -1000 + 'px', end: 0 + 'px', baseline: "bottom"
               })
 
-              scrollorama_exp_2.animate('.experience__item_right_2', {
-                delay: 400,
-                duration: 500, property: 'opacity', start: 0, end: 1, baseline: "bottom"
-              })
+              // scrollorama_exp_2.animate('.experience__item_right_2', {
+              //   delay: 400,
+              //   duration: 500, property: 'opacity', start: 0, end: 1, baseline: "bottom"
+              // })
           
     
         }

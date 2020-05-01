@@ -548,8 +548,8 @@ template {
 }
 
 .hero__list li img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .hero__list li div {
@@ -619,8 +619,8 @@ template {
     width: 255px;
   }
   .hero__list li img {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -711,8 +711,8 @@ template {
     font-size: 13px;
   }
   .solves__title {
-    left: 1%;
-    padding-left: 1%;
+    font-size: 15px;
+    padding-left: 14%;
   }
 }
 
@@ -949,7 +949,7 @@ template {
 @media (min-width: 993px) {
   .online-animation__title {
     font-size: 105px;
-    height: 100px;
+    height: 110px;
     animation-duration: 1000ms;
     transition: 1s;
   }
@@ -1053,22 +1053,25 @@ template {
   width: 100%;
   height: 80%;
   position: relative;
-  background-size: cover !important;
 }
 
 .experience__photo_1 {
+  background-size: cover;
   background: url("../../img/experience/mts.png");
 }
 
 .experience__photo_2 {
+  background-size: cover;
   background: url("../../img/experience/weekend.png");
 }
 
 .experience__photo_3 {
+  background-size: cover;
   background: url("../../img/experience/demo.png");
 }
 
 .experience__photo_4 {
+  background-size: cover;
   background: url("../../img/experience/agile.png");
 }
 
@@ -1145,7 +1148,8 @@ template {
     min-height: 1300px;
   }
   .experience__container {
-    min-height: 1140px;
+    width: 95%;
+    min-height: 1000px;
     z-index: 2;
   }
   .experience__title {
@@ -1159,11 +1163,31 @@ template {
     min-height: initial;
   }
   .experience__photo {
-    height: 400px;
-    background-size: cover;
+    margin-top: 40px;
+    background-size: contain;
+    height: 300px;
+  }
+  .experience__photo_1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .experience__photo_2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .experience__photo_3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .experience__photo_4 {
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .experience__link {
     font-size: 21px;
+  }
+  .experience_low {
+    min-height: 1080px;
   }
 }
 
@@ -1329,7 +1353,6 @@ template {
   font-size: 40px;
   font-family: 'Gotham Pro';
   font-weight: 500;
-  text-transform: initial;
 }
 
 .footer__subtitle {
@@ -1338,7 +1361,6 @@ template {
   font-size: 40px;
   font-family: 'Gotham Pro';
   font-weight: 500;
-  text-transform: initial;
 }
 
 .footer__hands {
@@ -1449,10 +1471,10 @@ template {
     margin-top: 10%;
   }
   .footer__hands {
-    width: 300px;
+    width: 150px;
     position: absolute;
-    right: 0px;
-    top: 40%;
+    right: 50px;
+    top: 50%;
     z-index: -1;
   }
   .footer__rocket {
@@ -1460,8 +1482,8 @@ template {
     bottom: 0;
     right: 85px;
     z-index: -1;
-    top: 30%;
-    width: 140px;
+    top: 45%;
+    width: 80px;
   }
   .footer__item {
     font-size: 18px;
@@ -1472,12 +1494,13 @@ template {
   }
   .footer__logo {
     height: 30px;
+    height: 45px;
   }
   .footer__link_img {
     width: 45px;
   }
   .rocket__animation_footer {
-    top: 3% !important;
+    top: 29% !important;
     animation-duration: 4000ms;
     transition: 4s;
   }

@@ -17,7 +17,7 @@
         font-size: 40px;
         font-family: 'Gotham Pro';
         font-weight: 500;
-        text-transform: initial;
+        // text-transform: uppercase;
     }
     &__subtitle{
         padding-top: 6%;
@@ -25,7 +25,7 @@
         font-size: 40px;
         font-family: 'Gotham Pro';
         font-weight: 500;
-        text-transform: initial;
+        // text-transform: initial;
     }
     &__hands{
         position: absolute;
@@ -142,10 +142,10 @@
             }
         }
         &__hands{
-            width: 300px;
+            width: 150px;
             position: absolute;
-            right: 0px;
-            top: 40%;
+            right: 50px;
+            top: 50%;
             z-index: -1;
         }
         &__rocket{
@@ -153,8 +153,8 @@
             bottom: 0;
             right: 85px;
             z-index: -1;
-            top: 30%;
-            width: 140px;
+            top: 45%;
+            width: 80px;
         }
         &__item{
             font-size: 18px;
@@ -165,6 +165,7 @@
         }
         &__logo{
             height: 30px;
+            height: 45px;
         }
         &__link{
             &_img{
@@ -174,7 +175,7 @@
     }
 
     .rocket__animation_footer{
-        top: 3% !important;
+        top: 29% !important;
         animation-duration: 4000ms;
                         -webkit-transition: 4s;
                         -moz-transition: 4s;
