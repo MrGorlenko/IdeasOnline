@@ -35,12 +35,14 @@
         font-size: 90px;
         height: 95px;
         margin-top: -2px;
-        animation-duration: 1000ms;
+        @media screen and (min-width: 993px){
+            animation-duration: 1000ms;
                     -webkit-transition: 1s;
                     -moz-transition: 1s;
                     -ms-transition: 1s;
                     -o-transition: 1s;
                     transition: 1s;
+        }
 
     }
     &__paragraph{
@@ -50,12 +52,14 @@
         font-family: 'Gotham Pro';
         font-weight: 500;
         margin-left: 15px;
-        animation-duration: 1000ms;
+        @media screen and (min-width: 993px){
+            animation-duration: 1000ms;
                     -webkit-transition: 1s;
                     -moz-transition: 1s;
                     -ms-transition: 1s;
                     -o-transition: 1s;
                     transition: 1s;
+        }
         &_b2c{
             width: 34%;
         }

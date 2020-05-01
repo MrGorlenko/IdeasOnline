@@ -839,8 +839,13 @@ template {
   font-size: 90px;
   height: 95px;
   margin-top: -2px;
-  animation-duration: 1000ms;
-  transition: 1s;
+}
+
+@media screen and (min-width: 993px) {
+  .online__title {
+    animation-duration: 1000ms;
+    transition: 1s;
+  }
 }
 
 .online__paragraph {
@@ -850,8 +855,13 @@ template {
   font-family: 'Gotham Pro';
   font-weight: 500;
   margin-left: 15px;
-  animation-duration: 1000ms;
-  transition: 1s;
+}
+
+@media screen and (min-width: 993px) {
+  .online__paragraph {
+    animation-duration: 1000ms;
+    transition: 1s;
+  }
 }
 
 .online__paragraph_b2c {
@@ -939,6 +949,7 @@ template {
 .experience {
   min-height: 810px;
   position: relative;
+  overflow: hidden;
 }
 
 .experience__title {
@@ -957,7 +968,8 @@ template {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: relative;
+  position: relative !important;
+  top: 0 !important;
 }
 
 .experience__item {
@@ -971,6 +983,7 @@ template {
   width: 100%;
   height: 80%;
   position: relative;
+  background-size: cover !important;
 }
 
 .experience__photo_1 {
@@ -1038,7 +1051,7 @@ template {
     min-height: 200vh;
   }
   .experience__container {
-    height: 160vh;
+    height: 120vh;
   }
   .experience__title {
     font-size: 45px;
@@ -1046,7 +1059,8 @@ template {
   }
   .experience__item {
     width: 100%;
-    height: 55%;
+    min-height: 55%;
+    max-height: 65%;
   }
   .experience__photo {
     height: 520px;

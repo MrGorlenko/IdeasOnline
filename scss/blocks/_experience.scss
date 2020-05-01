@@ -1,7 +1,7 @@
 .experience{
-    // min-height: 100vh;
     min-height:810px;
     position: relative;
+    overflow: hidden;
     &__title{
         color: #2d6870;
         text-align: center;
@@ -17,7 +17,8 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        position: relative;
+        position:  relative !important;
+        top: 0 !important;
         
     }
     &__item{
@@ -30,6 +31,7 @@
         width: 100%;
         height: 80%;
         position: relative;
+        background-size: cover !important;
         &_1{
             background: url('../../img/experience/mts.png');
         }
@@ -94,7 +96,7 @@
     .experience{
         min-height: 200vh;
         &__container{
-            height: 160vh;
+            height: 120vh;
         }
         &__title{
             font-size: 45px;
@@ -102,7 +104,8 @@
         }
         &__item{
             width: 100%;
-            height: 55%;
+            min-height: 55%;
+            max-height: 65%;
         }
         &__photo{
             height: 520px;
@@ -119,7 +122,6 @@
     .experience{
         min-height: 1300px;
         &__container{
-            // height: 170vh;
             min-height: 600px;
             z-index: 2;
         }
