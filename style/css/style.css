@@ -852,7 +852,7 @@ template {
     min-height: 600px;
   }
   .team__title {
-    width: 78%;
+    width: 60%;
     font-size: 15px;
     height: 60px;
   }
@@ -1130,6 +1130,7 @@ template {
   }
   .experience__container {
     min-height: 1420px;
+    margin: auto;
   }
   .experience__title {
     font-size: 45px;
