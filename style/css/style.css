@@ -836,7 +836,9 @@ template {
     min-height: 610px;
   }
   .online__bg {
-    width: 150px;
+    width: 250px;
+    top: -10%;
+    left: -10%;
   }
   .online__written {
     height: 300px;

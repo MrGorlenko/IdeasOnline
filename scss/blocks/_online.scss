@@ -101,7 +101,9 @@
     .online{
         min-height: 610px;
         &__bg{
-            width: 150px;
+            width: 250px;
+            top: -10%;
+            left: -10%;
         }
         &__written{
             height: 300px;
