@@ -1,14 +1,6 @@
 $(document).ready(function(){
 
 
-    // $(function() {
-    //     $('.background-label').marquee({
-    //       duration: 5000,
-    //       startVisible: true,
-    //       duplicated: true
-    //     });
-    //   });
-
     $(function() {
         $('.marquee').marquee({
           duration: 14000,
@@ -26,16 +18,5 @@ $(document).ready(function(){
         });
       });
 
-    //   direction:
-
-    // $(function() {
-    //     $('.background-star').marquee({
-    //       duration: 7000,
-    //       startVisible: true,
-    //       duplicated: true
-    //     });
-    //   });
-
-    //   background-star
 
 })
