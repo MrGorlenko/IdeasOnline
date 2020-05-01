@@ -852,6 +852,7 @@ template {
     min-height: 600px;
   }
   .team__title {
+    width: 78%;
     font-size: 15px;
     height: 60px;
   }
@@ -1497,8 +1498,7 @@ template {
     display: none;
   }
   .footer__logo {
-    height: 30px;
-    height: 45px;
+    height: 38px;
   }
   .footer__link_img {
     width: 45px;
