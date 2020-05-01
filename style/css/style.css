@@ -1151,10 +1151,10 @@ template {
 
 @media (max-width: 576px) {
   .experience {
-    min-height: 1300px;
+    min-height: 1350px;
   }
   .experience__container {
-    width: 95%;
+    width: 100%;
     min-height: 1000px;
     z-index: 2;
   }
@@ -1171,7 +1171,7 @@ template {
   .experience__photo {
     margin-top: 40px;
     background-size: contain;
-    height: 300px;
+    height: 334px;
   }
   .experience__photo_1 {
     background-size: contain;
@@ -1191,9 +1191,10 @@ template {
   }
   .experience__link {
     font-size: 21px;
+    padding-left: 20px;
   }
   .experience_low {
-    min-height: 1080px;
+    min-height: 1130px;
   }
 }
 

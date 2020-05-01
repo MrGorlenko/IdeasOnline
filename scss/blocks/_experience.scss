@@ -123,9 +123,9 @@
 
 @media (max-width: 576px){
     .experience{
-        min-height: 1300px;
+        min-height: 1350px;
         &__container{
-            width: 95%;
+            width: 100%;
             min-height: 1000px;
             z-index: 2;
         }
@@ -142,7 +142,7 @@
         &__photo{
             margin-top: 40px;
             background-size: contain;
-            height: 300px;
+            height: 334px;
             &_1{
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -162,9 +162,11 @@
         }
         &__link{
             font-size: 21px;
+            padding-left: 20px;
         }
         &_low{
-            min-height: 1080px;
+            // min-height: 1080px;
+            min-height: 1130px;
         }
 
     }
