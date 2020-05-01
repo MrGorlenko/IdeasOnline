@@ -636,6 +636,10 @@ template {
   box-sizing: border-box;
 }
 
+.background-label img {
+  width: 14px;
+}
+
 .background-star {
   position: absolute;
 }
