@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $(function() {
         $('.marquee').marquee({
-          duration: 7000,
+          duration: 14000,
           startVisible: true,
           duplicated: true
         });
@@ -19,7 +19,7 @@ $(document).ready(function(){
 
       $(function() {
         $('.marquee_r').marquee({
-          duration: 7000,
+          duration: 14000,
           startVisible: true,
           duplicated: true,
           direction: 'right'
