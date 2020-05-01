@@ -342,10 +342,6 @@ template {
 }
 
 .section__title {
-  background: -webkit-linear-gradient(#255938, #04291a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-family: 'Gotham Pro';
   text-transform: uppercase;
   margin: auto;
@@ -510,8 +506,7 @@ template {
   font-size: 25px;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  width: 401px;
-  width: 420px;
+  width: 490px;
 }
 
 .hero__list li {
@@ -658,10 +653,23 @@ template {
 }
 
 .team__title {
-  width: 90%;
+  width: 70%;
   padding-left: 10%;
   margin-top: -4px;
   height: 250px;
+  color: #006271;
+  background: none !important;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  height: 194px;
+}
+
+.team__title span {
+  color: inherit;
+  display: block;
+  max-height: 50px;
+  margin-left: 15px;
 }
 
 .team__list {
@@ -691,6 +699,54 @@ template {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+
+.team__one {
+  animation-delay: 0ms;
+}
+
+.team__two {
+  animation-delay: 100ms;
+  width: 55%;
+}
+
+.team__three {
+  animation-delay: 200ms;
+}
+
+.team__four {
+  animation-delay: 300ms;
+}
+
+.team__five {
+  animation-delay: 400ms;
+}
+
+.team__six {
+  animation-delay: 500ms;
+}
+
+.team__seven {
+  animation-delay: 600ms;
+}
+
+.team__eight {
+  animation-delay: 700ms;
+}
+
+.team__nine {
+  animation-delay: 800ms;
+}
+
+.team__ten {
+  animation-delay: 900ms;
+}
+
+.rocker__animation {
+  bottom: 30%;
+  right: 30%;
+  animation-duration: 3000ms;
+  transition: 3s;
 }
 
 @media (max-width: 1200px) {
@@ -724,6 +780,13 @@ template {
   }
   .team__title {
     font-size: 15px;
+    height: 60px;
+  }
+  .team__title span {
+    max-height: 17px;
+  }
+  .team__two {
+    width: initial;
   }
   .team__list {
     padding-left: 0;
@@ -732,7 +795,7 @@ template {
     font-size: 13px;
   }
   .team__rocket {
-    bottom: 25%;
+    width: 250px;
   }
 }
 
@@ -766,6 +829,7 @@ template {
   height: 100px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .online__title {
@@ -775,6 +839,8 @@ template {
   font-size: 90px;
   height: 95px;
   margin-top: -2px;
+  animation-duration: 1000ms;
+  transition: 1s;
 }
 
 .online__paragraph {
@@ -784,6 +850,8 @@ template {
   font-family: 'Gotham Pro';
   font-weight: 500;
   margin-left: 15px;
+  animation-duration: 1000ms;
+  transition: 1s;
 }
 
 .online__paragraph_b2c {
@@ -796,6 +864,20 @@ template {
   }
   .online__paragraph {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 993px) {
+  .online-animation__title {
+    font-size: 105px;
+    animation-duration: 1000ms;
+    transition: 1s;
+  }
+  .online-animation__paragraph {
+    font-size: 30px;
+    width: 48%;
+    animation-duration: 1000ms;
+    transition: 1s;
   }
 }
 

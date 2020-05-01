@@ -26,6 +26,7 @@
         height: 100px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
     &__title{
         width: 50%;
@@ -34,6 +35,12 @@
         font-size: 90px;
         height: 95px;
         margin-top: -2px;
+        animation-duration: 1000ms;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
 
     }
     &__paragraph{
@@ -43,11 +50,20 @@
         font-family: 'Gotham Pro';
         font-weight: 500;
         margin-left: 15px;
+        animation-duration: 1000ms;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
         &_b2c{
             width: 34%;
         }
     }
 }
+
+
+
 
 @media (max-width: 1200px){
     .online{
@@ -57,6 +73,28 @@
         &__paragraph{
             font-size: 20px;
         }
+    }
+}
+
+@media (min-width: 993px){
+    .online-animation__title{
+        font-size: 105px;
+        animation-duration: 1000ms;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
+    }
+    .online-animation__paragraph{
+        font-size: 30px;
+        width: 48%;
+        animation-duration: 1000ms;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
     }
 }
 
