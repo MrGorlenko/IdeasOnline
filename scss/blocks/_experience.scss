@@ -13,12 +13,14 @@
     &__container{
         width: 80%;
         margin: auto;
-        height: 80vh;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         position:  relative !important;
         top: 0 !important;
+        @media screen and (min-width: 993px){
+            height: 80vh;
+        }
         
     }
     &__item{
@@ -167,7 +169,7 @@
         }
         &_low{
             // min-height: 1080px;
-            min-height: 1130px;
+            min-height: 1330px;
         }
 
     }

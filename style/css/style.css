@@ -1039,12 +1039,17 @@ template {
 .experience__container {
   width: 80%;
   margin: auto;
-  height: 80vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative !important;
   top: 0 !important;
+}
+
+@media screen and (min-width: 993px) {
+  .experience__container {
+    height: 80vh;
+  }
 }
 
 .experience__item {
@@ -1195,7 +1200,7 @@ template {
     padding-left: 20px;
   }
   .experience_low {
-    min-height: 1130px;
+    min-height: 1330px;
   }
 }
 
