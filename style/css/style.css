@@ -447,7 +447,13 @@ template {
     padding-left: 15%;
   }
   .desctop {
-    display: none;
+    display: none !important;
+  }
+}
+
+@media (min-width: 577px) {
+  .mobile_320 {
+    display: none !important;
   }
 }
 
@@ -457,7 +463,7 @@ template {
     padding-left: 0;
   }
   .mobile {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -684,6 +690,7 @@ template {
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: -1;
 }
 
 @media (max-width: 1200px) {

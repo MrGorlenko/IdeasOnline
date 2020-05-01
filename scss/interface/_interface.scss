@@ -111,9 +111,17 @@
         }
     }
     .desctop{
-        display: none;
+        display: none !important;
     }
     
+}
+
+@media (min-width: 577px){
+    .mobile{
+        &_320{
+            display: none !important;
+        }
+    }
 }
 
 @media (max-width: 576px){
@@ -124,6 +132,6 @@
         }
     }
     .mobile{
-        display: none;
+        display: none !important;
     }
 }
