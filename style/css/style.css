@@ -1172,6 +1172,7 @@ template {
     margin-top: 40px;
     background-size: contain;
     min-height: 334px;
+    max-height: 336px;
   }
   .experience__photo_1 {
     background-size: contain;
