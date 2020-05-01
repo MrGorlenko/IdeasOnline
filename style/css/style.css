@@ -640,6 +640,9 @@ template {
   .background-label {
     font-size: 13px;
   }
+  .solves {
+    min-height: 450px;
+  }
 }
 
 @media (max-width: 576px) {
