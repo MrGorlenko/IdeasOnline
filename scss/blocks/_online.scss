@@ -1,6 +1,6 @@
 .online{
     // min-height: 100vh;
-    min-height:810px;
+    min-height:710px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -147,7 +147,8 @@
             width: 330px;
         }
         &__written{
-            height: 420px;
+            // height: 420px;
+            width: 115px;
         }
         &__title{
             font-size: 55px;
@@ -156,12 +157,16 @@
         &__paragraph{
             font-size: 15px;
         }
+        &__item{
+            height: 60px;
+        }
     }
 }
 
 @media (max-width: 576px){
     .online{
-        min-height: 610px;
+        // min-height: 610px;
+        min-height: 520px;
         &__bg{
             width: 250px;
             top: -10%;
@@ -171,14 +176,20 @@
             height: 300px;
         }
         &__title{
-            font-size: 34px;
+            font-size: 30px;
             padding-left: 0;
             width: 43%;
             padding-top: 8px;
         }
         &__paragraph{
             font-size: 11px;
-            width: 57%;
+            width: 53%;
+            &_b2c{
+                width: 46%;
+            }
+            &_special{
+                width: 18%;
+            }
         }
     }
 }

@@ -750,7 +750,7 @@ template {
 
 .team__list {
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   list-style-type: none;
   z-index: 3;
   width: 1070px !important;
@@ -888,7 +888,7 @@ template {
 }
 
 .online {
-  min-height: 810px;
+  min-height: 710px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -1011,7 +1011,7 @@ template {
     width: 330px;
   }
   .online__written {
-    height: 420px;
+    width: 115px;
   }
   .online__title {
     font-size: 55px;
@@ -1020,11 +1020,14 @@ template {
   .online__paragraph {
     font-size: 15px;
   }
+  .online__item {
+    height: 60px;
+  }
 }
 
 @media (max-width: 576px) {
   .online {
-    min-height: 610px;
+    min-height: 520px;
   }
   .online__bg {
     width: 250px;
@@ -1035,14 +1038,20 @@ template {
     height: 300px;
   }
   .online__title {
-    font-size: 34px;
+    font-size: 30px;
     padding-left: 0;
     width: 43%;
     padding-top: 8px;
   }
   .online__paragraph {
     font-size: 11px;
-    width: 57%;
+    width: 53%;
+  }
+  .online__paragraph_b2c {
+    width: 46%;
+  }
+  .online__paragraph_special {
+    width: 18%;
   }
 }
 
@@ -1501,7 +1510,7 @@ template {
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .footer__container_2 {
