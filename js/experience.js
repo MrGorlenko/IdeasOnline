@@ -1,6 +1,11 @@
 $(document).ready(function(){
 
 
+  $('.experience__link_no').on('click', function(event){
+    event.preventDefault();
+  })
+
+
     var scrollorama_exp = $.scrollorama({
         blocks:'.experience__container_1'
     });
