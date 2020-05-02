@@ -907,11 +907,11 @@ template {
     padding-left: 60px;
   }
   .team__rocket {
-    width: 250px;
+    width: 190px;
   }
   .rocker__animation {
-    bottom: 30%;
-    right: 30%;
+    bottom: 35%;
+    right: 35%;
     animation-duration: 3000ms;
     transition: 3s;
   }
