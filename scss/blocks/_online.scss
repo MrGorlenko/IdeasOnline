@@ -10,12 +10,15 @@
     // overflow: hidden;
     &__content{
         width: 100%;
+        position: absolute;
+        top: 35%;
 
     }
     &__bg{
         position: absolute;
         top: -20%;
         left: -20%;
+        width: 525px;
     }
     &__written{
         position: absolute;
@@ -30,12 +33,15 @@
         cursor: pointer;
     }
     &__title{
-        width: 50%;
+        height: 88px;
+        // height: 65px;
+        margin-top: -30%;
+        width: 40%;
         text-align: end;
         margin: unset;
         font-size: 90px;
-        height: 95px;
-        margin-top: -2px;
+        // height: 95px;
+        // margin-top: -2px;
         @media screen and (min-width: 993px){
             animation-duration: 1000ms;
                     -webkit-transition: 1s;
@@ -47,8 +53,11 @@
 
     }
     &__paragraph{
-        width: 40%;
-        font-size: 26px;
+        // margin-top: -30%;
+        // width: 50%;
+        // width: 650px;
+        width: 440px;
+        font-size: 19px;
         display: block;
         font-family: 'Gotham Pro';
         font-weight: 500;
@@ -62,7 +71,12 @@
                     transition: 1s;
         }
         &_b2c{
-            width: 34%;
+            // width: 34%;
+            // width: 650px;
+            width: 370px;
+        }
+        &_special{
+            width: 135px;
         }
     }
 }
@@ -83,8 +97,9 @@
 
 @media (min-width: 993px){
     .online-animation__title{
-        font-size: 105px;
-        height: 110px;
+        font-size: 95px;
+        height: 90px;
+        // height: 110px;
         animation-duration: 1000ms;
                     -webkit-transition: 1s;
                     -moz-transition: 1s;
@@ -93,8 +108,9 @@
                     transition: 1s;
     }
     .online-animation__paragraph{
-        font-size: 30px;
-        width: 48%;
+        // font-size: 21px;
+        // width: 48%;
+        // width: 650px;
         animation-duration: 1000ms;
                     -webkit-transition: 1s;
                     -moz-transition: 1s;

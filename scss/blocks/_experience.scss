@@ -1,5 +1,5 @@
 .experience{
-    min-height:810px;
+    min-height: 910px;
     position: relative;
     overflow: hidden;
     &__title{
@@ -33,9 +33,9 @@
     }
     &__item{
         width: 40%;
-        height: 400px;
+        height: 625px;
         width: 45%;
-        min-height: 90%;
+        min-height: 100%;
         &_left{
             &_3{
                 display: flex;
@@ -44,8 +44,10 @@
         }
     }
     &__photo{
-        width: 100%;
-        height: 80%;
+        // width: 100%;
+        width: 450px;
+        min-height: 500px;
+        // height: 80%;
         position: relative;
         &_1{
             background-size: cover;
@@ -71,6 +73,9 @@
             // background-repeat: no-repeat;
             background: url('../../img/experience/heart.png');
             background-repeat: no-repeat !important;
+            // width: 58%;
+            width: 700px;
+        min-height: 800px;
         }
     }
     &__star{
@@ -98,6 +103,9 @@
         &_lower{
             font-size: 22px;
             height: 80px;
+            @media screen and (min-width:993px){
+                margin-left: 20px;
+            }
         }
     }
     &__bg{
@@ -217,6 +225,9 @@
             &_4{
                 background-size: contain;
                 background-repeat: no-repeat;
+            }
+            &_5{
+                margin-left: 45px;
             }
         }
         &__link{

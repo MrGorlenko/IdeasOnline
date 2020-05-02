@@ -75,6 +75,11 @@ $(document).ready(function(){
                 duration: 500, property: 'right', start: -1000 + 'px', end: 0 + 'px', baseline: "bottom"
               })
 
+              scrollorama_exp_3.animate('.experience__item_left_3', {
+                delay: 90,
+                duration: 500, property: 'left', start: -700 + 'px', end: 0 + 'px', baseline: "bottom"
+              })
+
               // scrollorama_exp_2.animate('.experience__item_right_2', {
               //   delay: 400,
               //   duration: 500, property: 'opacity', start: 0, end: 1, baseline: "bottom"

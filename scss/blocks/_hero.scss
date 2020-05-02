@@ -2,21 +2,25 @@
     // min-height: 100vh;
     min-height:810px;
     width: 100%;
+    overflow: hidden;
     &__logo{
         margin: auto;
         display: block;
         margin-top: 5%;
-        width: 75%;
+        width: 55%;
     }
     &__title{
-        font-size: 55px;
+        // font-size: 55px;
         font-family: 'Gotham Pro';
         text-transform: uppercase;
         color: #2d6870;
         width: 50%;
+        // width: 1070px;
         font-weight: bolder;
         padding-left: 46%;
         margin: auto;
+        margin-top: 29px;
+        font-size: 35px;
     }
     &__list{
         list-style-type: none;
@@ -25,14 +29,14 @@
             display: block;
         }
         &-title{
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
             text-transform: uppercase;
             font-family: 'Gotham Pro';
             color: #2d6870;
         }
         &-label{
-            font-size: 25px;
+            font-size: 20px;
             text-transform: uppercase;
             font-family: Arial, Helvetica, sans-serif;
             width: 490px;
@@ -42,8 +46,8 @@
             align-items: center;
             margin-bottom: 30px;
             img{
-                width: 100px;
-                height: 100px;
+                width: 80px;
+                height: 80px;
             }
             div{
                 margin-left: 20px;

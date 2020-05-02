@@ -1,9 +1,9 @@
 .team{
+    overflow: hidden;
     min-height:810px;
     position: relative;
     &__title{
-        width: 70%;
-        padding-left: 10%;
+        padding-left: 5%;
         margin-top: -4px;
         height: 250px;
         color: rgb(0,98,113);
@@ -12,6 +12,10 @@
         display: flex;
         flex-wrap: wrap;
         height: 194px;
+        // font-size: 35px;
+        // width: 900px;
+        // width: 1070px;
+        width: 1115px;
         span{
             color: inherit;
             display: block;
@@ -25,11 +29,14 @@
         bottom: 20%;
         list-style-type: none;
         z-index: 3;
+        width: 1070px !important;
+        padding-left: 18%;
+        margin: auto;
         li{
             display: flex;
             align-items: center;
             padding-left: 15px;
-            font-size: 26px;
+            font-size: 34px;
             font-family: 'Gotham Pro';
             font-weight: 500;
             color: black;
@@ -44,6 +51,7 @@
         bottom: 0;
         right: 0;
         z-index: -1;
+        width: 300px;
     }
     &__one{
         animation-delay: 0ms;
@@ -95,7 +103,8 @@
 @media (max-width: 1200px){
     .team{
         &__title{
-            width: 80%;
+            width: 1000px;
+            height: 300px;
         }
     }
 }

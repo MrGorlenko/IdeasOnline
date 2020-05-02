@@ -131,3 +131,25 @@
 	font-weight: 500;
 	font-style: italic;
 }
+
+@font-face {
+	font-family: 'Intro';
+	src: url('Intro.ttf');
+	src: local('Intro Light'), local('Intro-light'),
+		url('Intro.ttf') format('embedded-opentype'),
+		url('Intro.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	/* font-family: 'IntroBold';
+	src: url('IntroBold.otf');
+	src: local('Intro Bold'), local('Intro-bold'),
+		url('IntroBold.otf') format('embedded-opentype');
+	font-weight: 600;
+	font-style:  bold; */
+
+	font-family: IntroBold; /* Имя шрифта */
+    src: url(IntroBold.otf); /* Путь к файлу со шрифтом */
+}
