@@ -131,7 +131,7 @@
 
 @media (max-width: 576px){
     .team{
-        min-height: 600px;
+        min-height: 500px;
         &__title{
             width: 67%;
             font-size: 15px;
@@ -154,8 +154,8 @@
         }
     }
     .rocker__animation{
-        bottom: 20%;
-        right: 20%;
+        bottom: 30%;
+        right: 30%;
         animation-duration: 3000ms;
                     -webkit-transition: 3s;
                     -moz-transition: 3s;

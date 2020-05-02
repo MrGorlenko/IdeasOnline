@@ -886,7 +886,7 @@ template {
 
 @media (max-width: 576px) {
   .team {
-    min-height: 600px;
+    min-height: 500px;
   }
   .team__title {
     width: 67%;
@@ -909,8 +909,8 @@ template {
     width: 250px;
   }
   .rocker__animation {
-    bottom: 20%;
-    right: 20%;
+    bottom: 30%;
+    right: 30%;
     animation-duration: 3000ms;
     transition: 3s;
   }
@@ -1084,7 +1084,7 @@ template {
     width: 45%;
   }
   .online__paragraph_special {
-    width: 18%;
+    width: 70px;
   }
 }
 
@@ -1664,5 +1664,19 @@ template {
     animation-duration: 4000ms;
     transition: 4s;
   }
+}
+
+.modal {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  width: 728px;
+  height: 690px;
 }
 /*# sourceMappingURL=style.css.map */
