@@ -1500,6 +1500,12 @@ template {
     width: 230px;
     height: 55px;
   }
+  .time__button:hover {
+    width: 230px;
+    height: 55px;
+    animation-duration: 1000ms;
+    transition: 1s;
+  }
 }
 
 .footer {
