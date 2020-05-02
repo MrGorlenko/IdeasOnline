@@ -74,6 +74,10 @@
         bottom: 0;
         right: 0;
     }
+    &_low{
+        margin-top: 80px;
+        min-height: 690px;
+    }
 }
 
 @media (max-width: 1200px){
@@ -125,7 +129,7 @@
 
 @media (max-width: 576px){
     .experience{
-        min-height: 1350px;
+        min-height: 1190px;
         &__container{
             width: 100%;
             min-height: 1000px;
@@ -170,10 +174,11 @@
         }
         &_low{
             min-height: 1120px;
-            // min-height: 1330px;
+            margin-top: 0;
+        }
+        &__bg{
+            display: none;
         }
 
     }
 }
-
-// min-height: 1080px;

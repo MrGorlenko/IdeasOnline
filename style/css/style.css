@@ -598,7 +598,7 @@ template {
 @media (max-width: 576px) {
   .hero__title {
     margin-top: 15px;
-    font-size: 23px;
+    font-size: 30px;
     text-align: center;
     padding-left: 0;
     width: 70%;
@@ -852,7 +852,7 @@ template {
     min-height: 600px;
   }
   .team__title {
-    width: 60%;
+    width: 67%;
     font-size: 15px;
     height: 60px;
   }
@@ -871,6 +871,12 @@ template {
   .team__rocket {
     width: 250px;
   }
+  .rocker__animation {
+    bottom: 20%;
+    right: 20%;
+    animation-duration: 3000ms;
+    transition: 3s;
+  }
 }
 
 .online {
@@ -880,6 +886,7 @@ template {
   align-items: flex-end;
   flex-wrap: wrap;
   position: relative;
+  margin-top: 200px;
 }
 
 .online__content {
@@ -983,6 +990,9 @@ template {
 }
 
 @media (max-width: 768px) {
+  .online {
+    margin-top: 100px;
+  }
   .online__bg {
     width: 330px;
   }
@@ -1011,13 +1021,14 @@ template {
     height: 300px;
   }
   .online__title {
-    font-size: 28px;
+    font-size: 34px;
     padding-left: 0;
-    width: 40%;
+    width: 43%;
+    padding-top: 8px;
   }
   .online__paragraph {
-    font-size: 13px;
-    width: 60%;
+    font-size: 11px;
+    width: 57%;
   }
 }
 
@@ -1113,6 +1124,11 @@ template {
   right: 0;
 }
 
+.experience_low {
+  margin-top: 80px;
+  min-height: 690px;
+}
+
 @media (max-width: 1200px) {
   .experience__link {
     font-size: 23px;
@@ -1156,7 +1172,7 @@ template {
 
 @media (max-width: 576px) {
   .experience {
-    min-height: 1350px;
+    min-height: 1190px;
   }
   .experience__container {
     width: 100%;
@@ -1202,6 +1218,10 @@ template {
   }
   .experience_low {
     min-height: 1120px;
+    margin-top: 0;
+  }
+  .experience__bg {
+    display: none;
   }
 }
 

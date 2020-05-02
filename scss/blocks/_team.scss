@@ -123,7 +123,7 @@
     .team{
         min-height: 600px;
         &__title{
-            width: 60%;
+            width: 67%;
             font-size: 15px;
             height: 60px;
             span{
@@ -142,5 +142,15 @@
         &__rocket{
             width: 250px;
         }
+    }
+    .rocker__animation{
+        bottom: 20%;
+        right: 20%;
+        animation-duration: 3000ms;
+                    -webkit-transition: 3s;
+                    -moz-transition: 3s;
+                    -ms-transition: 3s;
+                    -o-transition: 3s;
+                    transition: 3s;
     }
 }
