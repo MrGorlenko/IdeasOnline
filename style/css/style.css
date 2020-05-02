@@ -1063,11 +1063,26 @@ template {
   }
 }
 
+@media screen and (min-width: 993px) {
+  .experience__container_2 {
+    padding-top: 50px;
+  }
+}
+
+.experience__container_3 {
+  min-height: 810px;
+}
+
 .experience__item {
   width: 40%;
   height: 400px;
   width: 45%;
   min-height: 90%;
+}
+
+.experience__item_left_3 {
+  display: flex;
+  width: 100%;
 }
 
 .experience__photo {
@@ -1079,6 +1094,12 @@ template {
 .experience__photo_1 {
   background-size: cover;
   background: url("../../img/experience/mts.png");
+}
+
+@media screen and (min-width: 993px) {
+  .experience__photo_1 {
+    background-repeat: no-repeat;
+  }
 }
 
 .experience__photo_2 {
@@ -1096,11 +1117,22 @@ template {
   background: url("../../img/experience/agile.png");
 }
 
+.experience__photo_5 {
+  background-size: contain;
+  background: url("../../img/experience/heart.png");
+  background-repeat: no-repeat !important;
+}
+
 .experience__star {
   position: absolute;
   top: -7%;
   left: -7%;
   z-index: -1;
+}
+
+.experience__star_lower {
+  top: -6%;
+  left: -6%;
 }
 
 .experience__link {
@@ -1118,15 +1150,28 @@ template {
   text-decoration: underline;
 }
 
+.experience__link_lower {
+  font-size: 22px;
+  height: 80px;
+}
+
 .experience__bg {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
+.experience__bg_3 {
+  bottom: 15%;
+}
+
 .experience_low {
   margin-top: 80px;
   min-height: 690px;
+}
+
+.experience_lower {
+  padding-top: 50px;
 }
 
 @media (max-width: 1200px) {
@@ -1161,12 +1206,20 @@ template {
     width: 100%;
     min-height: 720px;
   }
+  .experience__item_left_3 {
+    display: block;
+    width: 100%;
+  }
   .experience__photo {
     height: 520px;
     background-size: cover;
   }
   .experience__link {
     font-size: 29px;
+  }
+  .experience_lower {
+    padding-top: 0;
+    min-height: 590px;
   }
 }
 
@@ -1178,6 +1231,9 @@ template {
     width: 100%;
     min-height: 1000px;
     z-index: 2;
+  }
+  .experience__container_3 {
+    min-height: 590px;
   }
   .experience__title {
     font-size: 36px;
@@ -1217,8 +1273,12 @@ template {
     padding-left: 20px;
   }
   .experience_low {
-    min-height: 1120px;
     margin-top: 0;
+    min-height: 1035px;
+  }
+  .experience_lower {
+    padding-top: 0;
+    min-height: 590px;
   }
   .experience__bg {
     display: none;

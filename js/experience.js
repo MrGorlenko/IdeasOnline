@@ -9,6 +9,10 @@ $(document).ready(function(){
         blocks:'.experience__container_2'
     });
 
+    var scrollorama_exp_3 = $.scrollorama({
+      blocks:'.experience__container_3'
+  });
+
 
       function myFunctionCircle(y) {
         if (y.matches) { 
@@ -28,6 +32,12 @@ $(document).ready(function(){
             scrollorama_exp_2.animate('.experience__item_right_2', {
                 duration: 500, property: 'right', start: -1000 + 'px', end: 0 + 'px', baseline: "bottom"
               })
+
+
+            scrollorama_exp_3.animate('.experience__item_left_3', {
+              delay: -190,
+              duration: 500, property: 'left', start: -700 + 'px', end: 0 + 'px', baseline: "bottom"
+            })
         
         } else {
 

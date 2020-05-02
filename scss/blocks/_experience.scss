@@ -21,6 +21,14 @@
         @media screen and (min-width: 993px){
             height: 80vh;
         }
+        &_2{
+            @media screen and (min-width: 993px){
+                padding-top: 50px;
+            }
+        }
+        &_3{
+            min-height: 810px;
+        }
         
     }
     &__item{
@@ -28,6 +36,12 @@
         height: 400px;
         width: 45%;
         min-height: 90%;
+        &_left{
+            &_3{
+                display: flex;
+                width: 100%;
+            }
+        }
     }
     &__photo{
         width: 100%;
@@ -36,6 +50,9 @@
         &_1{
             background-size: cover;
             background: url('../../img/experience/mts.png');
+            @media screen and (min-width: 993px){
+                background-repeat: no-repeat;
+            }
         }
         &_2{
             background-size: cover;
@@ -49,12 +66,22 @@
             background-size: cover;
             background: url('../../img/experience/agile.png');
         }
+        &_5{
+            background-size: contain;
+            // background-repeat: no-repeat;
+            background: url('../../img/experience/heart.png');
+            background-repeat: no-repeat !important;
+        }
     }
     &__star{
         position: absolute;
         top: -7%;
         left: -7%;
         z-index: -1;
+        &_lower{
+            top: -6%;
+            left: -6%;
+        }
     }
     &__link{
         margin-top: 6%;
@@ -68,15 +95,25 @@
         &:hover{
             text-decoration: underline;
         }
+        &_lower{
+            font-size: 22px;
+            height: 80px;
+        }
     }
     &__bg{
         position: absolute;
         bottom: 0;
         right: 0;
+        &_3{
+            bottom: 15%;
+        }
     }
     &_low{
         margin-top: 80px;
         min-height: 690px;
+    }
+    &_lower{
+        padding-top: 50px;
     }
 }
 
@@ -115,13 +152,24 @@
         &__item{
             width: 100%;
             min-height: 720px;
+            &_left{
+                &_3{
+                    display: block;
+                    width: 100%;
+                }
+            }
         }
+        
         &__photo{
             height: 520px;
             background-size: cover;
         }
         &__link{
             font-size: 29px;
+        }
+        &_lower{
+            padding-top: 0;
+            min-height: 590px;
         }
 
     }
@@ -134,6 +182,9 @@
             width: 100%;
             min-height: 1000px;
             z-index: 2;
+            &_3{
+                min-height: 590px;
+            }
         }
         &__title{
             font-size: 36px;
@@ -173,8 +224,13 @@
             padding-left: 20px;
         }
         &_low{
-            min-height: 1120px;
+            // min-height: 1120px;
             margin-top: 0;
+            min-height: 1035px;
+        }
+        &_lower{
+            padding-top: 0;
+            min-height: 590px;
         }
         &__bg{
             display: none;
