@@ -1679,6 +1679,7 @@ template {
 
 .modal {
   z-index: 90000;
+  position: fixed;
   top: 0;
   display: none;
   width: 100%;
