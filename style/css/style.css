@@ -520,6 +520,18 @@ template {
   font-size: 35px;
 }
 
+.hero__container {
+  margin: auto;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.hero__container img {
+  width: 30%;
+  height: 90%;
+}
+
 .hero__list {
   list-style-type: none;
 }
@@ -559,6 +571,9 @@ template {
 }
 
 @media (max-width: 992px) {
+  .hero {
+    min-height: 510px;
+  }
   .hero__title {
     font-size: 38px;
   }
@@ -574,6 +589,9 @@ template {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    min-height: 410px;
+  }
   .hero__title {
     margin-top: 15px;
     font-size: 30px;
@@ -598,12 +616,23 @@ template {
 }
 
 @media (max-width: 576px) {
+  .hero__logo {
+    width: 70%;
+  }
   .hero__title {
     margin-top: 15px;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     padding-left: 0;
     width: 70%;
+  }
+  .hero__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__container img {
+    width: 80%;
+    height: 100%;
   }
   .hero__list {
     margin-top: 100px;
@@ -1027,15 +1056,19 @@ template {
 
 @media (max-width: 576px) {
   .online {
-    min-height: 520px;
+    min-height: 420px;
   }
   .online__bg {
-    width: 250px;
     top: -10%;
     left: -10%;
+    width: 195px;
   }
   .online__written {
-    height: 300px;
+    height: 200px;
+    width: 75px;
+  }
+  .online__content {
+    top: 58%;
   }
   .online__title {
     font-size: 30px;
@@ -1044,11 +1077,11 @@ template {
     padding-top: 8px;
   }
   .online__paragraph {
-    font-size: 11px;
+    font-size: 9px;
     width: 53%;
   }
   .online__paragraph_b2c {
-    width: 46%;
+    width: 45%;
   }
   .online__paragraph_special {
     width: 18%;

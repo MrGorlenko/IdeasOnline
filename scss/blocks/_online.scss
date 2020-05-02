@@ -166,14 +166,19 @@
 @media (max-width: 576px){
     .online{
         // min-height: 610px;
-        min-height: 520px;
+        min-height: 420px;
         &__bg{
-            width: 250px;
+            // width: 250px;
             top: -10%;
             left: -10%;
+            width: 195px;
         }
         &__written{
-            height: 300px;
+            height: 200px;
+            width: 75px;
+        }
+        &__content{
+            top: 58%;
         }
         &__title{
             font-size: 30px;
@@ -182,10 +187,10 @@
             padding-top: 8px;
         }
         &__paragraph{
-            font-size: 11px;
+            font-size: 9px;
             width: 53%;
             &_b2c{
-                width: 46%;
+                width: 45%;
             }
             &_special{
                 width: 18%;
