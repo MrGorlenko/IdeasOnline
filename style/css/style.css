@@ -904,6 +904,7 @@ template {
   }
   .team__list li {
     font-size: 13px;
+    padding-left: 60px;
   }
   .team__rocket {
     width: 250px;
@@ -1084,7 +1085,7 @@ template {
     width: 45%;
   }
   .online__paragraph_special {
-    width: 70px;
+    width: 60px;
   }
 }
 
