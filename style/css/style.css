@@ -730,7 +730,6 @@ template {
 }
 
 .team__title {
-  padding-left: 5%;
   margin-top: -4px;
   height: 250px;
   color: #006271;
@@ -755,7 +754,7 @@ template {
   list-style-type: none;
   z-index: 3;
   width: 1070px !important;
-  padding-left: 18%;
+  padding-left: 14%;
   margin: auto;
 }
 
@@ -914,7 +913,8 @@ template {
 .online__written {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1%;
+  width: 190px;
 }
 
 .online__item {

@@ -3,7 +3,7 @@
     min-height:810px;
     position: relative;
     &__title{
-        padding-left: 5%;
+        // padding-left: 5%;
         margin-top: -4px;
         height: 250px;
         color: rgb(0,98,113);
@@ -30,7 +30,8 @@
         list-style-type: none;
         z-index: 3;
         width: 1070px !important;
-        padding-left: 18%;
+        padding-left: 14%;
+        // padding-left: 10%;
         margin: auto;
         li{
             display: flex;
