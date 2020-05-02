@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/fonts/stylesheet.css">
     <link rel="stylesheet" href="style/css/animate.css">
 </head>
-<body>
+<body id='body'>
     <section class="hero">
         <img class="hero__logo wow animate bounceInDown" src="img/hero/logo.png" alt="">
         <h1 class="hero__title wow animate bounceInDown">Решения <br> для общения</h1>
@@ -161,11 +161,26 @@
         <img class="time__star" src="img/time/star.png" alt="">
         <h2 class="time__title">настало ваше время</h2>
         <h2 class="time__subtitle">выйти в онлайн!</h2>
-        <button class="time__button wow animated zoomIn">Поехали! </button>
+        <button class="time__button wow animated zoomIn" id='go'>Поехали! </button>
         <img src="img/time/astronaut.png" alt="" class="time__astronaut wow animated fadeInLeft">
+
+        <section class="modal">
+            <div class="modal__container">
+                <h3 class="modal__title">Stay Updated!</h3>
+                <div class="modal__links">
+                    <img class='modal__close' src="img/modal/christ.svg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=79165913077"><img src="img/modal/whatsApp.png" alt=""></a>
+                    <a href="mailto:RAZIN@IDEASPRODUCTION.RU"><img src="img/modal/mail.png" alt=""></a>
+                </div>
+    
+            </div>
+        </section>
+
     </section>
 
     <footer class="footer">
+
+
         <img src="img/footer/star.png" alt="" class="footer__star">
         <h2 class="footer__title">Центр управления полетами <br> Ideas Online:</h2>
         <h2 class="footer__subtitle">10 лет опыта  В сфере ивент - <br>  И маркетинговых <br> мероприятий</h2>
@@ -185,11 +200,17 @@
         </div>
     </footer>
 
-    <section class="modal">
+    <!-- <section class="modal">
         <div class="modal__container">
-            <img src="img/modal/modal.png" alt="">
+            <h3 class="modal__title">Stay Updated!</h3>
+            <div class="modal__links">
+                <img class='modal__close' src="img/modal/christ.svg" alt="">
+                <a href="https://api.whatsapp.com/send?phone=79165913077"><img src="img/modal/whatsApp.png" alt=""></a>
+                <a href="mailto:RAZIN@IDEASPRODUCTION.RU"><img src="img/modal/mail.png" alt=""></a>
+            </div>
+
         </div>
-    </section>
+    </section> -->
     <!-- 89165913077 -->
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -204,6 +225,7 @@
     <script src='js/online.js'></script>
     <script src='js/experience.js'></script>
     <script src='js/solves.js'></script>
+    <script src='js/modal.js'></script>
     <script src='js/wow.min.js'></script>
     <script>
         new WOW().init();

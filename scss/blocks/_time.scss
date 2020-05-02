@@ -40,6 +40,23 @@
         font-weight: 500;
         outline: none;
         z-index: 5;
+        cursor: pointer;
+        animation-duration: 1000ms;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
+        &:hover{
+            width: 270px;
+            height: 80px;
+            animation-duration: 1000ms;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
+        }
     }
 }
 

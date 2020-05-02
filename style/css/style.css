@@ -1401,6 +1401,16 @@ template {
   font-weight: 500;
   outline: none;
   z-index: 5;
+  cursor: pointer;
+  animation-duration: 1000ms;
+  transition: 1s;
+}
+
+.time__button:hover {
+  width: 270px;
+  height: 80px;
+  animation-duration: 1000ms;
+  transition: 1s;
 }
 
 @media (max-width: 1200px) {
@@ -1668,16 +1678,87 @@ template {
 }
 
 .modal {
+  z-index: 90000;
+  top: 0;
+  display: none;
   width: 100%;
   min-height: 100vh;
   background: rgba(0, 0, 0, 0.4);
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.modal__close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
 .modal__container {
-  width: 728px;
-  height: 690px;
+  position: relative;
+  width: 713px;
+  height: 735px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: url("../../img/modal/modal.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal__title {
+  font-size: 45px;
+  margin-top: 340px;
+  font-family: 'IntroBold';
+  text-transform: capitalize !important;
+}
+
+.modal__links {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .modal__container {
+    background-size: 525px;
+    width: 525px;
+    height: 540px;
+  }
+  .modal__title {
+    font-size: 30px;
+    margin-top: 280px;
+  }
+  .modal__links {
+    width: 200px;
+  }
+  .modal__links a img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal__close {
+    top: 10px;
+    right: 10px;
+    width: 20px;
+  }
+  .modal__container {
+    background-size: 270px;
+    width: 270px;
+    height: 278px;
+  }
+  .modal__title {
+    font-size: 22px;
+    margin-top: 170px;
+  }
+  .modal__links {
+    width: 100px;
+  }
+  .modal__links a img {
+    width: 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
