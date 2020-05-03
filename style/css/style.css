@@ -1083,7 +1083,7 @@ template {
     width: 53%;
   }
   .online__paragraph_b2c {
-    width: 191px;
+    width: 160px;
   }
   .online__paragraph_special {
     width: 60px;
@@ -1213,6 +1213,14 @@ template {
 
 .experience__link:hover {
   text-decoration: underline;
+}
+
+.experience__link_no {
+  text-decoration: none !important;
+}
+
+.experience__link_no:hover {
+  text-decoration: none !important;
 }
 
 .experience__link_lower {
@@ -1722,7 +1730,7 @@ template {
   height: 620px;
   background-size: 600px;
   background-repeat: no-repeat;
-  background: url("../../img/modal/modal.png");
+  background-image: url("../../img/modal/modal.png");
   display: flex;
   justify-content: center;
   align-items: center;

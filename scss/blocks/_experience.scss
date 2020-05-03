@@ -109,6 +109,12 @@
         &:hover{
             text-decoration: underline;
         }
+        &_no{
+            text-decoration: none !important;
+            &:hover{
+                text-decoration: none !important;
+            }
+        }
         &_lower{
             font-size: 22px;
             height: 80px;
