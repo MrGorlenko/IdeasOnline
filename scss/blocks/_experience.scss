@@ -80,12 +80,21 @@
     }
     &__star{
         position: absolute;
-        top: -7%;
-        left: -7%;
+        // top: -6%;
+        // left: -7%;
+        top: -34px;
+        left: -35px;
         z-index: -1;
+        &_low{
+            // top: -6%;
+            top: -33px;
+            left: -35px;
+        }
         &_lower{
-            top: -6%;
-            left: -6%;
+            // top: -3%;
+            // left: -6%;
+            top: -33px;
+            left: -35px;
         }
     }
     &__link{
@@ -167,6 +176,12 @@
                 }
             }
         }
+        &__star{
+            &_lower{
+                top: -10%;
+                left: -5%;
+            }
+        }
         
         &__photo{
             height: 520px;
@@ -174,10 +189,14 @@
         }
         &__link{
             font-size: 29px;
+            &_lower{
+                padding-left: 45px !important;
+            }
         }
         &_lower{
             padding-top: 0;
             min-height: 590px;
+            // padding-left: 45px;
         }
 
     }

@@ -509,7 +509,8 @@ template {
 }
 
 .hero__title {
-  font-family: 'Gotham Pro';
+  font-family: 'IntroBold';
+  font-weight: inherit;
   text-transform: uppercase;
   color: #2d6870;
   width: 50%;
@@ -988,7 +989,7 @@ template {
 }
 
 .online__paragraph_b2c {
-  width: 370px;
+  width: 345px;
 }
 
 .online__paragraph_special {
@@ -1082,7 +1083,7 @@ template {
     width: 53%;
   }
   .online__paragraph_b2c {
-    width: 45%;
+    width: 191px;
   }
   .online__paragraph_special {
     width: 60px;
@@ -1184,14 +1185,19 @@ template {
 
 .experience__star {
   position: absolute;
-  top: -7%;
-  left: -7%;
+  top: -34px;
+  left: -35px;
   z-index: -1;
 }
 
+.experience__star_low {
+  top: -33px;
+  left: -35px;
+}
+
 .experience__star_lower {
-  top: -6%;
-  left: -6%;
+  top: -33px;
+  left: -35px;
 }
 
 .experience__link {
@@ -1275,12 +1281,19 @@ template {
     display: block;
     width: 100%;
   }
+  .experience__star_lower {
+    top: -10%;
+    left: -5%;
+  }
   .experience__photo {
     height: 520px;
     background-size: cover;
   }
   .experience__link {
     font-size: 29px;
+  }
+  .experience__link_lower {
+    padding-left: 45px !important;
   }
   .experience_lower {
     padding-top: 0;
@@ -1451,6 +1464,7 @@ template {
 @media (max-width: 768px) {
   .time__star {
     top: 50%;
+    display: none;
   }
   .time__title {
     font-size: 35px;
@@ -1704,9 +1718,9 @@ template {
 
 .modal__container {
   position: relative;
-  width: 713px;
-  height: 735px;
-  background-size: contain;
+  width: 600px;
+  height: 620px;
+  background-size: 600px;
   background-repeat: no-repeat;
   background: url("../../img/modal/modal.png");
   display: flex;
