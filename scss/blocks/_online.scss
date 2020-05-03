@@ -39,6 +39,7 @@
         margin-top: -30%;
         width: 40%;
         text-align: end;
+        font-family: 'IntroBold';
         margin: unset;
         font-size: 90px;
         // height: 95px;
@@ -60,7 +61,8 @@
         width: 440px;
         font-size: 19px;
         display: block;
-        font-family: 'Gotham Pro';
+        // font-family: 'Gotham Pro';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         margin-left: 15px;
         @media screen and (min-width: 993px){

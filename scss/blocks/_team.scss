@@ -26,7 +26,8 @@
     }
     &__list{
         position: absolute;
-        bottom: 25%;
+        // bottom: 25%;
+        bottom: 35%;
         list-style-type: none;
         z-index: 3;
         width: 1070px !important;
@@ -34,11 +35,12 @@
         // padding-left: 10%;
         margin: auto;
         li{
+            margin-bottom: 15px;
             display: flex;
             align-items: center;
             padding-left: 15px;
-            font-size: 34px;
-            font-family: 'Gotham Pro';
+            font-size: 39px;
+            font-family: 'IntroBold';
             font-weight: 500;
             color: black;
             &::before{
