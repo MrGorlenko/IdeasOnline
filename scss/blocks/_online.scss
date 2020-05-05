@@ -1,6 +1,6 @@
 .online{
     // min-height: 100vh;
-    min-height:710px;
+    min-height: 575px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -189,7 +189,7 @@
 @media (max-width: 576px){
     .online{
         // min-height: 610px;
-        min-height: 420px;
+        min-height: 320px;
         &__bg{
             // width: 250px;
             top: -10%;
@@ -204,7 +204,7 @@
             width: 75px;
         }
         &__content{
-            top: 58%;
+            top: 35%;
         }
         &__title{
             font-size: 30px;

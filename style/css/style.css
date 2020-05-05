@@ -927,7 +927,7 @@ template {
 }
 
 .online {
-  min-height: 710px;
+  min-height: 575px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -1087,7 +1087,7 @@ template {
 
 @media (max-width: 576px) {
   .online {
-    min-height: 420px;
+    min-height: 320px;
   }
   .online__bg {
     top: -10%;
@@ -1102,7 +1102,7 @@ template {
     width: 75px;
   }
   .online__content {
-    top: 58%;
+    top: 35%;
   }
   .online__title {
     font-size: 30px;
