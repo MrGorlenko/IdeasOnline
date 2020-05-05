@@ -9,6 +9,9 @@
         padding-top: 3%;
         // font-family: 'Gotham Pro';
         font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     &__container{
         width: 80%;
@@ -104,6 +107,7 @@
         display: block;
         color: #000;
         text-decoration: none;
+        padding-top: 6px;
         // font-family: 'Gotham Pro';
         font-weight: 500;
         &:hover{

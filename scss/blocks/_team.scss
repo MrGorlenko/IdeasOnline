@@ -106,8 +106,8 @@
 @media (max-width: 1200px){
     .team{
         &__title{
-            width: 1000px;
-            height: 300px;
+            width: 800px;
+            height: 190px;
         }
     }
 }
@@ -118,6 +118,7 @@
         &__title{
             padding-left: 0;
             font-size: 40px;
+            width: 800px;
         }
     }
 }
@@ -127,6 +128,14 @@
         padding-top: 50px;
         &__title{
             padding-left: 0;
+            font-size: 28px;
+            width: 500px;
+            height: 150px;
+        }
+        &__list{
+            li{
+                font-size: 26px;
+            }
         }
     }
 }
@@ -135,7 +144,8 @@
     .team{
         min-height: 500px;
         &__title{
-            width: 67%;
+            // width: 67%;
+            width: 235px;
             font-size: 15px;
             height: 60px;
             span{

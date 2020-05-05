@@ -54,15 +54,21 @@
         // font-family: 'Gotham Pro';
         font-weight: 500;
         text-transform: initial;
-        font-size: 22px;
+        font-size: 21px;
         &_link{
             text-decoration: underline;
             color: black;
         }
     }
+    &__sent{
+        display: flex;
+        align-items: center;
+        width: 400px;
+        justify-content: space-between;
+    }
     &__logo{
         width: 240px;
-        height: 35px;
+        height: 30px;
     }
 }
 
@@ -163,8 +169,13 @@
         &__star{
             display: none;
         }
+        &__sent{
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+        }
         &__logo{
-            height: 38px;
+            height: 26px;
         }
         &__link{
             &_img{
